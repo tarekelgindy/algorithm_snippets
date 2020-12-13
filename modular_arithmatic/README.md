@@ -2,8 +2,11 @@ Code for extended Euclidean Algorithm, Modular division and Simultaneous Equatio
 
 # Extended Euclidean Algorithm:
 For a,b find x and y s.t. ax+by=gcd(a,b)
+
  Retuns gcd,x,y s.t. the solution solves
+
  e.g. xgcd(13,7) returns 1,1,2 
+
  i.e. 13*-1 + 7*2 =1
 
 # Modular Division:
@@ -17,7 +20,6 @@ For a,b find x and y s.t. ax+by=gcd(a,b)
  Use simplify(a,1,n) to find the modular inverse of a if and n are coprime
 
 # Simultaneous Equation Solver:
-
     Solve a set of simulataneous modular equations with prime modulos
     Plug first equation into the second equation etc.
     If prime modulos, simplification to find modular inverse will always work
